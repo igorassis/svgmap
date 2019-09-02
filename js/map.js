@@ -1,5 +1,5 @@
-// var rsr = Raphael("map", "1334.36", "2000");
-var rsr = Raphael("map", "700", "700");
+var rsr = Raphael("map", "1334.36", "2000");
+// var rsr = Raphael("map", "700", "700");
 var regions = [];
 
 var group_a = rsr.set();
@@ -16,7 +16,7 @@ var path_bl = rsr
         parent: "group_a",
         "stroke-width": "0",
         "stroke-opacity": "1",
-        fill: "#000000"
+        fill: "#BABACA"
     })
     .data("id", "path_bl");
 var path_bm = rsr
@@ -28,7 +28,7 @@ var path_bm = rsr
         parent: "group_a",
         "stroke-width": "0",
         "stroke-opacity": "1",
-        fill: "#000000"
+        fill: "#BABACA"
     })
     .data("id", "path_bm");
 group_c.attr({ parent: "group_a", name: "group_c" });
@@ -44,7 +44,7 @@ var path_bn = rsr
         parent: "group_a",
         "stroke-width": "0",
         "stroke-opacity": "1",
-        fill: "#000000"
+        fill: "#BABACA"
     })
     .data("id", "path_bn");
 var path_bo = rsr
