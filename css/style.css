@@ -6,5 +6,5 @@ html, body {
 .map {
     height: 950px;
     width: 700px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
